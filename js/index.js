@@ -39,14 +39,21 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
 
 // ## Task 1: Create selectors to point your data into elements
 //* [ ] Create selectors by using any of the DOM element's methods
 //* [ ] Note that IDs have been used on all images.  Use the IDs to update src path content
 
+// const middleImage = document.getElementById("middle-img");
+// middleImage.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
 
+const snippet = document.getElementById("middle-img");
+snippet.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+const iAmRotundNotCircularYouBigot = document.getElementById("cta-img")
+iAmRotundNotCircularYouBigot("src", siteContent["cta"]["img-src"]) 
 //## Task 2: Update the HTML with the JSON data
 //* [ ] Remember, NO direct updating of the HTML source is allowed.
 //* [ ] Using your selectors, update the content to match the example file.
