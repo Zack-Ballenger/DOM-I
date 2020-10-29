@@ -52,8 +52,14 @@ logo.setAttribute('src', siteContent["nav"]["img-src"]);
 const snippet = document.getElementById("middle-img");
 snippet.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
-const iAmRotundNotCircularYouBigot = document.getElementById("cta-img")
-iAmRotundNotCircularYouBigot("src", siteContent["cta"]["img-src"]) 
+const iAmRotundNotBallShapedYouBigot = document.getElementById("cta-img");
+iAmRotundNotBallShapedYouBigot.setAttribute("src", siteContent["cta"]["img-src"]); 
+
+
+// const cta = document.getElementById("cta-img");
+// cta.setAttribute("src", "img/header-img.png");
+
+
 //## Task 2: Update the HTML with the JSON data
 //* [ ] Remember, NO direct updating of the HTML source is allowed.
 //* [ ] Using your selectors, update the content to match the example file.
