@@ -90,10 +90,12 @@ midPageText[5].textContent = "The corner of 4th and Broadmoore";
 midPageText[6].textContent = "(806) 867-5309";
 midPageText[7].textContent = "PM me dawg";
 
+
+
 //## Task 3: Add new content
 //* [Yep] Change the color of the navigation text to be green.
-//* [ ] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
-//* [ ] Check your work by looking at the [original html](original.html) in the browser
+//* [Done] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
+//* [ok] Check your work by looking at the [original html](original.html) in the browser
 
 const navColors = document.querySelectorAll("a");
 navColors.forEach(function(a) {
@@ -119,8 +121,14 @@ secondAnchor.innerHTML = "Le Fin";
 
 
 //## Stretch Goals
-//* [ ] Update styles throughout the page as you see fit.  Study what happens when you updated the DOM using style in JavaScript.  
-//* [ ] Study tomorrow's lesson on events and try to integrate a button that can update content on the site with a click of a button.  You could build a similar data object with new values to help you test the click event.
+//* [I'm already late turning this in but whatevs I did it anyway] Update styles throughout the page as you see fit.  Study what happens when you updated the DOM using style in JavaScript.  
+//* [naaaaaaah I'm behind, gonna just start the new project instead] Study tomorrow's lesson on events and try to integrate a button that can update content on the site with a click of a button.  You could build a similar data object with new values to help you test the click event.
+
+const midPage = document.querySelectorAll("p");
+midPage.forEach(function(p) {
+  p.style.color = "orange";
+});
+
 
 //## Stretch Project: Digital Timer
 //This project is heavier on logic but employs some DOM manipulation to achieve it's goals.  Go check it out here: [stretch assignment](stretch-assignment) and see how far you can get. 
