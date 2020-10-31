@@ -43,11 +43,8 @@ logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
 
 // ## Task 1: Create selectors to point your data into elements
-//* [ ] Create selectors by using any of the DOM element's methods
-//* [ ] Note that IDs have been used on all images.  Use the IDs to update src path content
-
-// const middleImage = document.getElementById("middle-img");
-// middleImage.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+//* [Ok] Create selectors by using any of the DOM element's methods
+//* [Done] Note that IDs have been used on all images.  Use the IDs to update src path content
 
 const snippet = document.getElementById("middle-img");
 snippet.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
@@ -55,15 +52,29 @@ snippet.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 const iAmRotundNotBallShapedYouBigot = document.getElementById("cta-img");
 iAmRotundNotBallShapedYouBigot.setAttribute("src", siteContent["cta"]["img-src"]); 
 
-
-// const cta = document.getElementById("cta-img");
-// cta.setAttribute("src", "img/header-img.png");
-
-
 //## Task 2: Update the HTML with the JSON data
-//* [ ] Remember, NO direct updating of the HTML source is allowed.
-//* [ ] Using your selectors, update the content to match the example file.
-//* [ ] Remember to update the src attributes on images
+//* [Yeah sure] Remember, NO direct updating of the HTML source is allowed.
+//* [Can do] Using your selectors, update the content to match the example file.
+//* [Done and done my good man] Remember to update the src attributes on images
+
+const awesome = document.getElementsByTagName("h1");
+awesome[0].textContent = "DOM IS AWESOME";
+
+const navLinks = document.getElementsByTagName("a");
+navLinks[0].textContent = "Service";
+navLinks[1].textContent = "Product";
+navLinks[2].textContent = "Vision";
+navLinks[3].textContent = "Features";
+navLinks[4].textContent = "About";
+navLinks[5].textContent = "Content";
+
+const button = document.getElementsByTagName("button");
+button[0].textContent = "Get Started";
+
+
+// const domIsAwesome = document.getElementsByTagName("h1");
+// domIsAwesome[0].textContent = "Dom Is Awesome";
+
 
 //## Task 3: Add new content
 //* [ ] Change the color of the navigation text to be green.
