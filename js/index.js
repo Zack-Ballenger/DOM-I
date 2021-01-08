@@ -130,5 +130,5 @@ midPage.forEach(function(p) {
 });
 
 
-//## Stretch Project: Digital Timer
+//## Stretch Project: Digital Timerzzzzzzzz
 //This project is heavier on logic but employs some DOM manipulation to achieve it's goals.  Go check it out here: [stretch assignment](stretch-assignment) and see how far you can get. 
