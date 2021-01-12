@@ -120,7 +120,7 @@ secondAnchor.href = "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6Ik
 secondAnchor.innerHTML = "Le Fin";
 
 
-//## Stretch Goals
+//## Stretch Goalz
 //* [I'm already late turning this in but whatevs I did it anyway] Update styles throughout the page as you see fit.  Study what happens when you updated the DOM using style in JavaScript.  
 //* [naaaaaaah I'm behind, gonna just start the new project instead] Study tomorrow's lesson on events and try to integrate a button that can update content on the site with a click of a button.  You could build a similar data object with new values to help you test the click event.
 
@@ -130,5 +130,5 @@ midPage.forEach(function(p) {
 });
 
 
-//## Stretch Project: Digital Timerzzzzzzzz
+//## Stretch Project: Digital Timer
 //This project is heavier on logic but employs some DOM manipulation to achieve it's goals.  Go check it out here: [stretch assignment](stretch-assignment) and see how far you can get. 
